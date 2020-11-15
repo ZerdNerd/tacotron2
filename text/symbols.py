@@ -11,7 +11,7 @@ custom = True
 _pad        = '_'
 _punctuation = '!\'(),.:␤? '
 _special = '-'
-_letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'
+_characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZĘÓŁŚĄŻŹĆŃabcdefghijklmnopqrstuvwxyzęółśążźćń'
 if custom:
   _custom ='☺☻♥♦♣♠•◘○◙♂♀♪♫☼►◄↕‼¶§▬↨↑↓→←∟↔▲;'
 # ☺     = Anxious
@@ -37,8 +37,8 @@ if custom:
 _arpabet = ['@' + s for s in cmudict.valid_symbols]
 
 if custom: # Export all symbols:
-  symbols = [_pad] + list(_special) + list(_punctuation) + list(_letters) + _arpabet + list(_custom)
+  symbols = [_pad] + list(_special) + list(_punctuation) + list(_characters) + _arpabet + list(_custom)
 else:
-  symbols = [_pad] + list(_special) + list(_punctuation) + list(_letters) + _arpabet
+  symbols = [_pad] + list(_special) + list(_punctuation) + list(_characters) + _arpabet
 
-ctc_symbols = [_pad] + list(_letters) + _arpabet
+ctc_symbols = [_pad] + list(_characters) + _arpabet
