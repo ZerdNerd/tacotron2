@@ -11,7 +11,7 @@ custom = True
 _pad        = '_'
 _punctuation = '!\'(),.:␤? '
 _special = '-'
-_characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZÜÄÖßabcdefghijklmnopqrstuvwxyzüäö'
+_characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZĘÓŁŚĄŻŹĆŃabcdefghijklmnopqrstuvwxyzęółśążźćń'
 if custom:
   _custom ='☺☻♥♦♣♠•◘○◙♂♀♪♫☼►◄↕‼¶§▬↨↑↓→←∟↔▲;'
 # ☺     = Anxious
